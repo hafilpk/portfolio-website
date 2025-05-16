@@ -4,33 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammed Hafil</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div>
-            <h2>Muhammed Hafil</h2>
+    <div>
+        <nav>
+            <h3>MUHAMMED HAFIL</h3>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skill">My Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="main"> 
+        <div class="header">
+            <h1>Hi I'm <span>Muhammed Hafil</span><br> Web developer|Data scientist</h1>
         </div>
         <div>
-            <h3>Full-Stack Web Developer </h3>
+            <img src="./images/Photo.png" alt="photo">
         </div>
-        <div>
-            <a href="">Resume</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
-        </div>
-    </header>
-    <section>
-        <h2>About me</h2>
-        <p>I am a dedicated Python and Django developer with a strong foundation in full-stack web development and expertise in crafting robust and efficient web applications. My skillset includes working with modern frontend frameworks like React and managing databases with PostgreSQL, ensuring seamless integration and scalability. Additionally, I bring knowledge of data science principles, enabling me to build data-driven solutions.</p>
+    </div>
+    <section id="about">
+        <div class="col1"><h2>About me</h2></div>
+        <div class="col2"><p>I am a dedicated Python and Django developer with a strong foundation in full-stack web development and expertise in crafting robust and efficient web applications. My skillset includes working with modern frontend frameworks like React and managing databases with PostgreSQL, ensuring seamless integration and scalability. Additionally, I bring knowledge of data science principles, enabling me to build data-driven solutions.</p></div>
     </section>
-    <div><img src="./images/Photo.png" alt="photo" width="600" height="600"></div>
+    
+    <!-----------Skills---------->
+    <section id="skill">
+        <div>
+            <h2>Web Development</h2>
+            <ul>
+                <li>Python-Django+React</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Web Designing</h2>
+            <ul>
+                <li>HTML</li><li>CSS</li><li>Java Script</li><li>Boot Strap</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Data science</h2>
+            <ul>
+                <li>Statistical Analysis</li>
+                <li>Machine Learning</li>
+                <li>Data visualization</li>
+                <li>Database Management</li>
+            </ul>
+        </div>
+      
+    </section>
+    <div class="resume">
+        <a href="" download>Download Resume</a>
+    </div>  
+    <div id="project">
+        <div>
+            <h1>Key Projects</h1>
+            <div class="p1">
+                <div class="on-image">
+                    <img src="images/e-commerce.jpg" alt="e-commerce">
+                    <div>
+                        <h2>E-commerce Platform</h2>
+                        <ul>
+                            <li>Developed a full-stack e-commerce application using Django and PostgreSQL</li>
+                            <li>Implemented user authentication, product management, and payment gateway integration.</li>
+                            <li>Designed a responsive front-end using HTML, CSS, JavaScript, and Bootstrap</li>
+                        </ul>
+                        <a href="">Link</a>
+                    </div>
+                </div>
+                <div class="on-image">
+                    <img src="images/task.png" alt="task-managment">
+                    <div>
+                        <h2>Task Managment Application</h2>
+                        <ul>
+                            <li>Created a task management tool with features such as user registration, task assignment, and deadline reminders.</li>
+                            <li>Utilized Django REST Framework for backend APIs and React for the front-end interface.</li>
+                        </ul>
+                        <a href="">Link</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <div class="more"><a href="">More Projects</a></div>
+    <div><h1>Contact Me</h1></div>
+    <div id="contact">
+        <div>
+            <form  method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <label for="phone">Phone No:</label>
+                <input type="number" id="phone" name="phone" placeholder="Enter your phone number">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <label for="message">Message:</label>
+                <textarea cols="30" rows="3" name="message" id="message" placeholder="Type your message..."></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="details">
+            <p>Phone No: 9605610271<p>
+            <p>Email: pkmshafil@gmail.com</p>
+        </div>
+    </div>
     <hr>
     <footer>
-        <b>ph: +91 9605610271</b>
-        <b>Email: pkmshafil@gmail.com</b>
-        <b>Website: soon..</b>
-
-
+        <b>MUHAMMED HAFIL</b>
     </footer>
   
 </body>
