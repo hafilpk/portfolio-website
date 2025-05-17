@@ -148,10 +148,19 @@ form input,form textarea{
 
 }
 button{
+    color:white;
     font-size: 20px;
     width: 150px;
     height: auto;
-    background-color: #644002;
+    background-color: rgb(77, 32, 12);
     border-radius: 5px;
     cursor: pointer;
+}
+button:hover{
+    background-color: #192285;
+}
+#alert{
+    color: rgb(8, 113, 8);
+    font-size: 20px;
+    
 }

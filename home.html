@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muhammed Hafil</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
     <div>
         <nav>
@@ -15,24 +17,36 @@
                 <li><a href="#skill">My Skills</a></li>
                 <li><a href="#project">Projects</a></li>
                 <li><a href="#contact">Contact Me</a></li>
-
             </ul>
         </nav>
     </div>
-    <div class="main"> 
+    <div class="main">
         <div class="header">
-            <h1>Hi I'm <span>Muhammed Hafil</span><br> Web developer|Data scientist</h1>
+            <h1>
+                Hi I'm <span>Muhammed Hafil</span><br />
+                Web developer|Data scientist
+            </h1>
         </div>
         <div>
-            <img src="./images/Photo.png" alt="photo">
+            <img src="./images/Photo.png" alt="photo" />
         </div>
     </div>
     <section id="about">
-        <div class="col1"><h2>About me</h2></div>
-        <div class="col2"><p>I am a dedicated Python and Django developer with a strong foundation in full-stack web development and expertise in crafting robust and efficient web applications. My skillset includes working with modern frontend frameworks like React and managing databases with PostgreSQL, ensuring seamless integration and scalability. Additionally, I bring knowledge of data science principles, enabling me to build data-driven solutions.</p></div>
+        <div class="col1">
+            <h2>About me</h2>
+        </div>
+        <div class="col2">
+            <p>
+                I am a dedicated Python and Django developer with a strong foundation
+                in full-stack web development and expertise in crafting robust and
+                efficient web applications. My skillset includes working with modern
+                frontend frameworks like React and managing databases with PostgreSQL,
+                ensuring seamless integration and scalability. Additionally, I bring
+                knowledge of data science principles, enabling me to build data-driven
+                solutions.
+            </p>
+        </div>
     </section>
-    
-    <!-----------Skills---------->
     <section id="skill">
         <div>
             <h2>Web Development</h2>
@@ -44,7 +58,10 @@
         <div>
             <h2>Web Designing</h2>
             <ul>
-                <li>HTML</li><li>CSS</li><li>Java Script</li><li>Boot Strap</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>Boot Strap</li>
             </ul>
         </div>
         <div>
@@ -56,66 +73,102 @@
                 <li>Database Management</li>
             </ul>
         </div>
-      
     </section>
     <div class="resume">
         <a href="" download>Download Resume</a>
-    </div>  
+    </div>
     <div id="project">
         <div>
             <h1>Key Projects</h1>
             <div class="p1">
                 <div class="on-image">
-                    <img src="images/e-commerce.jpg" alt="e-commerce">
+                    <img src="images/e-commerce.jpg" alt="e-commerce" />
                     <div>
                         <h2>E-commerce Platform</h2>
                         <ul>
-                            <li>Developed a full-stack e-commerce application using Django and PostgreSQL</li>
-                            <li>Implemented user authentication, product management, and payment gateway integration.</li>
-                            <li>Designed a responsive front-end using HTML, CSS, JavaScript, and Bootstrap</li>
+                            <li>
+                                Developed a full-stack e-commerce application using Django and
+                                PostgreSQL
+                            </li>
+                            <li>
+                                Implemented user authentication, product management, and
+                                payment gateway integration.
+                            </li>
+                            <li>
+                                Designed a responsive front-end using HTML, CSS, JavaScript,
+                                and Bootstrap
+                            </li>
                         </ul>
                         <a href="">Link</a>
                     </div>
                 </div>
                 <div class="on-image">
-                    <img src="images/task.png" alt="task-managment">
+                    <img src="images/task.png" alt="task-managment" />
                     <div>
                         <h2>Task Managment Application</h2>
                         <ul>
-                            <li>Created a task management tool with features such as user registration, task assignment, and deadline reminders.</li>
-                            <li>Utilized Django REST Framework for backend APIs and React for the front-end interface.</li>
+                            <li>
+                                Created a task management tool with features such as user
+                                registration, task assignment, and deadline reminders.
+                            </li>
+                            <li>
+                                Utilized Django REST Framework for backend APIs and React for
+                                the front-end interface.
+                            </li>
                         </ul>
                         <a href="">Link</a>
                     </div>
                 </div>
-            </div>    
+            </div>
         </div>
     </div>
     <div class="more"><a href="">More Projects</a></div>
-    <div><h1>Contact Me</h1></div>
+    <div>
+        <h1>Contact Me</h1>
+    </div>
     <div id="contact">
         <div>
-            <form  method="post">
+            <form name="submit-to-google-sheet">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <input type="text" id="name" name="name" placeholder="Enter your name" />
                 <label for="phone">Phone No:</label>
-                <input type="number" id="phone" name="phone" placeholder="Enter your phone number">
+                <input type="number" id="phone" name="phone" placeholder="Enter your phone number" />
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <input type="email" id="email" name="email" placeholder="Enter your email" />
                 <label for="message">Message:</label>
                 <textarea cols="30" rows="3" name="message" id="message" placeholder="Type your message..."></textarea>
                 <button type="submit">Submit</button>
             </form>
+            <span id="alert"></span>
         </div>
         <div class="details">
-            <p>Phone No: 9605610271<p>
+            <p>Phone No: 9605610271</p>
+            <p></p>
             <p>Email: pkmshafil@gmail.com</p>
         </div>
     </div>
-    <hr>
+    <hr />
     <footer>
         <b>MUHAMMED HAFIL</b>
     </footer>
-  
+    <script>
+        const scriptURL =
+            "https://script.google.com/macros/s/AKfycbxquLuIEjY9a_AIy2R2rxosBg2oerVLGjGkGoWz0CNakopKtJbg05OOdMUtKoatYTKE1Q/exec";
+        const form = document.forms["submit-to-google-sheet"];
+        const alert = document.getElementById("alert")
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                .then(response => {
+                    alert.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        alert.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch((error) => console.error("Error!", error.message));
+        });
+    </script>
 </body>
+
 </html>
